@@ -385,8 +385,8 @@ body {
   position: absolute;
   width: 70px;
   height: 224px;
-  border-left: #10cab7 80px solid;
-  border-bottom: #10cab7 48px solid;
+  border-left: var(--main-color) 80px solid;
+  border-bottom: var(--main-color) 48px solid;
   top: -35px;
   right: -105px;
   z-index: -1;
