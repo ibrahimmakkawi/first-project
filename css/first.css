@@ -320,18 +320,22 @@ body {
 
 .port .port-content {
   display: grid;
-  gap: 10px;
+  gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   margin-top: 80px;
 }
 
 .port .card {
+  border-radius: 3%;
   background-color: white;
   max-width: 90%;
+  margin: 0 auto;
 }
 
 .port .card img {
   max-width: 100%;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
 }
 
 .port .card .info {
@@ -427,6 +431,9 @@ body {
 
   .about .about-content .image {
     margin: 0 auto 0;
+  }
+  .about .about-content .image img {
+    border-radius: 3%;
   }
 }
 
